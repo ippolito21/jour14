@@ -1,0 +1,12 @@
+<?php
+$serveur = "localhost";
+ $utilisateur = "root";
+ $motDePasse = "";
+
+ $nomBaseDeDonnees = "bibliotheque";
+
+ $bdd = new PDO("mysql:host=$serveur;dbname=$nomBaseDeDonnees" , $utilisateur, $motDePasse);
+
+var_dump($bdd);
+
+?>
